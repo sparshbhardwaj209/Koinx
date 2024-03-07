@@ -53,20 +53,21 @@ const Sentiment = () => {
               </div>
             </div>
           </div>
-          <div>
+          <div className="">
             <div className="text-[#44475b] font-medium px-4 text-lg">
-              Analyst Estimates{" "}
+              Analyst Estimates
               <InfoIcon style={{ height: "18px", color: "#7c7e8c" }} />
             </div>
-            <div className="w-[100%] flex my-5">
-              <div className="h-auto mx-5 p-10 bg-green-100 rounded-full items-center">
+            
+            <div className="flex flex-col items-center space-y-2 md:flex-row my-5">
+              <div className="h-auto p-8 bg-green-100 rounded-full items-center">
                 <p className="font-medium text-3xl text-[#0fba83] items-center">
                   76%
                 </p>
               </div>
 
               <div className="w-[80%]">
-                <ul className="mx-8 px-8">
+                <ul className="mx-1 px-2 md:mx-10 md:px-4">
                   <li className="flex justify-between items-center">
                     <span className="text-[#7c7e8c] my-1 font-medium">Buy</span>
                     <span className="items-center w-40">
