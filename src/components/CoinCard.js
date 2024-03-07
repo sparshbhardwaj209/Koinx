@@ -1,7 +1,7 @@
 import React from "react";
 
 const CoinCard = ({ info }) => {
-  console.log(info);
+  // console.log(info);
 
   const { item } = info;
 
