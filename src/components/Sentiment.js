@@ -14,7 +14,7 @@ const Sentiment = () => {
             Key Events <InfoIcon style={{ height: "18px", color: "#7c7e8c" }} />
           </div>
           <div className="flex flex-col lg:flex-row my-3 px-3">
-            <div className="bg-green-100 rounded-2xl p-3 flex space-x-3 my-3">
+            <div className="bg-green-100 rounded-2xl p-3 flex space-x-3 my-3 mx-2">
               <div className="bg-[#0082ff] p-2 rounded-full h-11">
                 <NewspaperIcon style={{ color: "white" }} />
               </div>
@@ -33,7 +33,7 @@ const Sentiment = () => {
                 </p>
               </div>
             </div>
-            <div className="bg-green-100 rounded-2xl p-3 flex space-x-3 my-3">
+            <div className="bg-green-100 rounded-2xl p-3 flex space-x-3 my-3 mx-2">
               <div className="bg-[#0fba83] p-2 rounded-full h-11">
                 <ArrowOutwardIcon style={{ color: "white" }} />
               </div>
